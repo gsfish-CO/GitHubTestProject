@@ -1,6 +1,6 @@
 package net.gsfishco.gittest;
 
-public class HelloWorld {
+public class HelloWorldChangeUser3 {
 	
 	public static void main(String[] args) {
 		
@@ -10,3 +10,4 @@ public class HelloWorld {
 	}
 
 }
+
