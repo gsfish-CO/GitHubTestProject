@@ -3,8 +3,10 @@ package net.gsfishco.gittest;
 public class HelloWorld {
 	
 	public static void main(String[] args) {
-		for (int i = 0; i < 10; i++) {
-			System.out.println("Hello and Good Morning World!");
+		String[] names = {"George", "Scott", "John"};
+
+		for (String name : names) {
+			System.out.println("Hello World from " + name + "!");
 		}
 	}
 
