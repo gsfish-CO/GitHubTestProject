@@ -1,2 +1,9 @@
 # GitHubTestProject
-Initial Git Hub Test Project
+
+Home Project - Git & GitHub Experimentation Project 
+- The focus of this experimentation project was to gain experience with the popular Git & GitHub version control systems. To accomplish this, I setup a Git & GitHub local and remote software code repository, created a java  “GitHubTestProject” and step through the process of updating the local and remote repositories. This was done with multiple (simulated) users involved resulting in a code conflict during the update that required a merge from the conflicting source code files.  A code merge was done to resolve the conflicting code and the resulting update was committed to the local repository. After this all repository were updated so that the local and remote repositories of all users are once again at the same code baseline.  See the code repository and README file at https://github.com/gsfish-CO/GitHubTestProject.git for details. Note: I will leave this shared repository available until mid-year 2019.
+- Created a GitHub account and a remote GitHub java code repository that can be accessed and download over the internet using the https://github.com/gsfish-CO/GitHubTestProject.git URL.
+- Created an Eclipse java project and a local clone GIT repository from the remote GitHubTestProject java project.
+- Made java code updates to the HelloWorld.java example by User 1(see HelloWorldChangeUser1.java) with the original code saved in HelloWorldOriginal.java and committed the updates to the local repository pushed to remote repository.  
+- Updates were made by User2 (see HelloWorldChangesUser2.java), who had the original updates from User1and that conflicted with the updates done by User1.  User2 merged his updates with User1 and checked in updates to HelloWorld.java (which now contains the final merged updates).
+
